@@ -1019,3 +1019,24 @@ img {
   }
 
 }
+
+@media (min-width: 1025px) {
+  .project-card::before,
+  .project-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: var(--side-gap, 0px);
+    background: var(--pink);
+    pointer-events: none;
+  }
+
+  .project-card::before {
+    left: 0;
+  }
+
+  .project-card::after {
+    right: 0;
+  }
+}
