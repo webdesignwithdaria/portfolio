@@ -1040,3 +1040,7 @@ img {
     right: 0;
   }
 }
+/* Hide the Pollux-AI website link until its domain is renewed. */
+.website-link[href="https://pollux-ai.com/"] {
+  display: none;
+}
